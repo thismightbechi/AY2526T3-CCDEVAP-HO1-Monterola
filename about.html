@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about me</title>
+</head>
+<body bgcolor="orange" text="white" link="white" vlink="white">
+    <br>
+    <header>
+        <a href="navigation.html">
+            <font size = "5">
+                back to the chiverse
+            </font>
+        </a><br>
+        <a href="#contact">
+            <font size="5">jump to contact form</font>
+        </a>
+    </header>
+    <br>
+    <table border="0" width="90%" align="center">
+        <tr>
+            <td width="30%" valign="top">
+                <h1>about me</h1>
+                <img src="profile.png" width="250">
+            </td>
+
+            <td width="70%" valign="top">
+                    <h3>name: miguel monterola<br>
+                    age: 19<br>
+                    occupation: bsit student</h3>
+                    <p> 
+                        <font size = "5">
+                            hi! my name is miguel but you can call me chi (as i am known in DLSU). i'm a BSIT student that is also into
+                            graphic design and i try my best at it... i like to jog, read books and listen to music. not that much of a series watcher
+                            because i'm scared of getting attached.
+                        </font>
+                    </p>
+                <br>
+                
+                <table border="1" bordercolor="white" cellpadding="10" cellspacing="0" width="100%">
+                    <tr>
+                        <th>credentials:</th>
+                        <th>education:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            DLSU Data Science Society (DSS)<br>2025-2026<br><br>
+                            La Salle Computer Society (LSCS)<br>2024-2026
+                        </td>
+                        <td>
+                                <a href="https://stepsmandaluyong.braineeph.com/" target="_blank">St. Therese Private School</a><br>2018-2024<br><br>
+                                <a href="https://www.facebook.com/spcmakati.edu/" target="_blank">St. Paul. College of Makati</a><br>2018-2024<br><br>
+                                <a href="https://www.dlsu.edu.ph" target="_blank">De La Salle University</a><br>2024-Present
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <br><hr color="white"><br>
+
+    <section>
+        <center>
+            <h2>My Media</h2>
+            <table border="0" width="80%">
+                <tr>
+                    <td align="center" width="33%">
+                        <font size = "4">
+                        current song on repeat:<br>
+                        <p>Magnolias - Rosalia</p>
+                        </font>
+                        <audio controls>
+                            <source src="magnolias.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                    <td align="center" width="34%">
+                        <font size = "4">
+                        <p>surprise fish tank</p>
+                        </font>
+                        <video width="320" controls>
+                            <source src="fish.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td align="center" width="33%">
+                        <font size = "4">
+                        book i just read:<br>
+                        <p>Martyr! - Kaveh Akbar</p>
+                        </font>
+                        <img src="martyr.jpeg" width="150"><br>
+                        <font size="3">
+                            the book was very good! however the ending was 
+                            open ended and it made me think about it for like at least 3 days straight...
+                            in my head it is be a happy ending (4.5 stars).
+                        </font>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </section>
+
+    <br><hr color="white"><br>
+
+    <section id="contact">
+        <center>
+            <h2>Contact Me</h2>
+            <form action="#" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <p>why are you reaching out?</p>
+                <input type="radio" id="reach" name="reason" value="reach">
+                <label for="reach">i want to collaborate with you</label><br>
+                <input type="radio" id="ask" name="reason" value="ask">
+                <label for="ask">i want to ask some stuff</label><br>
+                <input type="radio" id="others" name="reason" value="others">
+                <label for="others">something else (i just want to talk)</label><br><br>
+
+                <textarea rows="4" cols="50" placeholder="Type your message here..."></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </center>
+    </section>
+</body>
+</html>
