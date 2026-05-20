@@ -2,128 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>about me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>who are you???</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="orange" text="white" link="white" vlink="white">
-    <br>
-    <header>
-        <a href="navigation.html">
-            <font size = "5">
-                back to the chiverse
-            </font>
-        </a><br>
-        <a href="#contact">
-            <font size="5">jump to contact form</font>
-        </a>
-    </header>
-    <br>
-    <table border="0" width="90%" align="center">
-        <tr>
-            <td width="30%" valign="top">
-                <h1>about me</h1>
-                <img src="profile.png" width="250">
-            </td>
+<body class="about-page">
+    <a href="navigation.html" class="back-btn">← back</a>
+    <a href="#contact" class="jump-btn">↓ contact me</a>
+    <img src="logowhite.png" class="logo">
 
-            <td width="70%" valign="top">
-                    <h3>name: miguel monterola<br>
-                    age: 19<br>
-                    occupation: bsit student</h3>
-                    <p> 
-                        <font size = "5">
-                            hi! my name is miguel but you can call me chi (as i am known in DLSU). i'm a BSIT student that is also into
-                            graphic design and i try my best at it... i like to jog, read books and listen to music. not that much of a series watcher
-                            because i'm scared of getting attached.
-                        </font>
-                    </p>
-                <br>
-                
-                <table border="1" bordercolor="white" cellpadding="10" cellspacing="0" width="100%">
-                    <tr>
-                        <th>credentials:</th>
-                        <th>education:</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            DLSU Data Science Society (DSS)<br>2025-2026<br><br>
-                            La Salle Computer Society (LSCS)<br>2024-2026
-                        </td>
-                        <td>
-                                <a href="https://stepsmandaluyong.braineeph.com/" target="_blank">St. Therese Private School</a><br>2018-2024<br><br>
-                                <a href="https://www.facebook.com/spcmakati.edu/" target="_blank">St. Paul. College of Makati</a><br>2018-2024<br><br>
-                                <a href="https://www.dlsu.edu.ph" target="_blank">De La Salle University</a><br>2024-Present
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <div class="profile-grid">
+        <div class="profile-left">
+            <h1 class="about-label">about me</h1>
+            <img src="profile.png" class="profile-img">
+        </div>
 
-    <br><hr color="white"><br>
+        <div class="profile-right">
+            <h3>name: miguel monterola<br>
+            age: 19<br>
+            occupation: bsit student</h3>
+            <p>
+                hi! my name is miguel but you can call me chi (as i am known in DLSU). i'm a BSIT student that is also into
+                graphic design and i try my best at it... i like to jog, read books and listen to music. not that much of a series watcher
+                because i'm scared of getting attached.
+            </p>
+            
+            <div class="credentials-grid">
+                <div class="credentials-column">
+                    <h2>credentials:</h2>
+                    <p>DLSU Data Science Society (DSS)<br>2025-2026</p>
+                    <p>La Salle Computer Society (LSCS)<br>2024-2026</p>
+                </div>
 
-    <section>
-        <center>
-            <h2>My Media</h2>
-            <table border="0" width="80%">
-                <tr>
-                    <td align="center" width="33%">
-                        <font size = "4">
-                        current song on repeat:<br>
-                        <p>Magnolias - Rosalia</p>
-                        </font>
-                        <audio controls>
-                            <source src="magnolias.mp3" type="audio/mpeg">
-                        </audio>
-                    </td>
-                    <td align="center" width="34%">
-                        <font size = "4">
-                        <p>surprise fish tank</p>
-                        </font>
-                        <video width="320" controls>
-                            <source src="fish.mp4" type="video/mp4">
-                        </video>
-                    </td>
-                    <td align="center" width="33%">
-                        <font size = "4">
-                        book i just read:<br>
-                        <p>Martyr! - Kaveh Akbar</p>
-                        </font>
-                        <img src="martyr.jpeg" width="150"><br>
-                        <font size="3">
-                            the book was very good! however the ending was 
-                            open ended and it made me think about it for like at least 3 days straight...
-                            in my head it is be a happy ending (4.5 stars).
-                        </font>
-                    </td>
-                </tr>
-            </table>
-        </center>
+                <div class="credentials-column">
+                    <div class="credentials-column">
+                        <h2>education:</h2>
+                        <p><a href="https://www.facebook.com/spcmakati.edu/">St. Paul College of Makati</a><br>2018-2024</p>
+                        <p><a href="https://www.dlsu.edu.ph">De La Salle University</a><br>2024-Present</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <section class="media-section">
+        <h2 class="section-title">My Media</h2>
+        <div class="media-grid">
+            
+            <div class="media-item">
+                <p>current song on repeat:<br>Magnolias - Rosalia</p>
+                <audio controls>
+                    <source src="magnolias.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            
+            <div class="media-item">
+                <p>surprise fish tank</p>
+                <video width="320" controls>
+                    <source src="fish.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="media-item">
+                <p>book i just read:<br>Martyr! - Kaveh Akbar</p>
+                <img src="martyr.jpeg" width="150">
+                <p class="book-review">
+                    the book was very good! however the ending was open ended 
+                    and it made me think about it for like at least 3 days straight... 
+                    in my head it is be a happy ending (4.5 stars).
+                </p>
+            </div>
+
+        </div>
     </section>
 
-    <br><hr color="white"><br>
+    <hr class="section-divider">
 
-    <section id="contact">
-        <center>
-            <h2>Contact Me</h2>
-            <form action="#" method="get">
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form action="#" method="get" class="contact-form">
+            
+            <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                
+                <input type="text" id="name" name="name">
+            </div>
+            
+            <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                
-                <p>why are you reaching out?</p>
+                <input type="email" id="email" name="email">
+            </div>
+            
+            <p>why are you reaching out?</p>
+            <div class="radio-group">
                 <input type="radio" id="reach" name="reason" value="reach">
                 <label for="reach">i want to collaborate with you</label><br>
                 <input type="radio" id="ask" name="reason" value="ask">
                 <label for="ask">i want to ask some stuff</label><br>
                 <input type="radio" id="others" name="reason" value="others">
-                <label for="others">something else (i just want to talk)</label><br><br>
+                <label for="others">something else (i just want to talk)</label>
+            </div>
 
-                <textarea rows="4" cols="50" placeholder="Type your message here..."></textarea><br><br>
-
-                <input type="submit" value="Send Message">
-            </form>
-        </center>
+            <textarea rows="4" placeholder="what do you want to say"></textarea>
+            
+            <input type="submit" value="Send" class="submit-btn">
+        </form>
     </section>
 </body>
 </html>
